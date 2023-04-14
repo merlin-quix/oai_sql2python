@@ -1,8 +1,5 @@
-import os
 import streamlit as st
 import openai
-import datetime
-from contextlib import redirect_stdout
 
 oa = openai
 openai.api_key = st.secrets["OPENAI_API_KEY_QX"]
